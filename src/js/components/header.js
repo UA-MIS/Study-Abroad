@@ -20,13 +20,6 @@ document.getElementById('main-header').innerHTML = `
                         <li class="nav-item">
                             <a class="nav-link" href="about-page.html">About</a>
                         </li>
-                        
-                        <li class="nav-item">
-                            <a class="nav-link" href="blog-page.html">Blog</a>
-                        </li>
-                        <li class="nav-item">
-                        <a class="nav-link" href="contact-page.html"><i class="far fa-envelope"></i></a>
-                        </li>
                     </ul>
                   </div>
                 </nav>
