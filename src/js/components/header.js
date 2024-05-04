@@ -15,7 +15,7 @@ document.getElementById('main-header').innerHTML = `
                   <div class="collapse navbar-collapse" id="navbarSupportedContent">
                     <ul class="navbar-nav ml-auto">
                         <li class="nav-item">
-                            <a class="nav-link" href="#promo">Stories</a>
+                            <a class="nav-link" href="index.html">Stories</a>
                         </li>
                         <li class="nav-item">
                             <a class="nav-link" href="about-page.html">About</a>
