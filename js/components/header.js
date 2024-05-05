@@ -4,7 +4,7 @@ document.getElementById('main-header').innerHTML = `
             <div class="container"> 
                 <nav class="navbar navbar-expand-lg navbar-light">
                 <!-- Change path logo here -->
-                  <a class="navbar-brand logo" href="index.html"><img src="assets/img/logo.png" alt="Exodus" class="img-fluid"></a>
+                  <a class="navbar-brand logo" href="/index.html"><img src="/assets/img/logo.png" alt="Exodus" class="img-fluid"></a>
                    
                   <!-- Collapse button -->
                   <button class="navbar-toggler first-button" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
