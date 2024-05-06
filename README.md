@@ -110,3 +110,5 @@ Some components will declare a context variable to be passed into the handlebars
 
 #### Rendering Components
 Once the template has been populated, it is then ready to be injected into the DOM. This is done by targeting the script tag which called it and setting its `outerHTML` attribute equal to the populated template. This will replace the script tag with the desired html. This is why it is necessary to call the script tag where you desire the element to be injected.
+
+    document.getElementById('main-header').outerHTML = populatedTemplate
