@@ -25,6 +25,9 @@
         <!-- Slick Slider CSS -->
         <link rel="stylesheet" type="text/css" href="/css/slick.css">
         <link rel="stylesheet" type="text/css" href="/css/slick-theme.css">
+
+        <!-- Dependencies -->
+        <script src="https://cdn.jsdelivr.net/npm/handlebars/dist/handlebars.min.js"></script>
         
     </head>
     <body class="white">
@@ -32,7 +35,7 @@
         <!-- Main Content Starts -->
 
         <!-- We target this with js and render it client side-->
-        <div id="main-header"></div>
+        <script id="main-header" src="/js/components/header/header.js"></script>
 
 
         <!-- Section -->
@@ -217,34 +220,8 @@
             </div>
         </div> 
 
-        
-        <!-- Section -->
-        <div class="section back five">
-            <div class="container center">
-                <h5 class="t-black">stay connected</h5>
-                <span class="line gold"></span>
-
-                <div class="social-container m-20 center">
-                    <a href="" class="primary-btn white icon t-gold"><i class="fab fa-facebook-square"></i></a>
-                    <a href="" class="primary-btn white icon t-gold"><i class="fab fa-instagram"></i></a>
-                    <a href="" class="primary-btn white icon t-gold"><i class="fab fa-linkedin"></i></a>
-                </div>
-            </div>
-        </div><!-- Section Ends -->
-        
-            <!-- Footer -->
-            <footer>
-                <div class="container">
-                    <div class="links t-black">
-                        <a>Explore</a>
-                        <a>About</a>
-                        <a>Promotions</a>
-                        <a>Blog</a>
-                        <a>Contact</a>
-                    </div>
-                    <div class="copyright t-grey center">2019 - All rights reserved to &copy;Exodus</div>
-                </div>
-            </footer>
+        <!-- Footer -->
+        <script id="main-footer" src="/js/components/footer/footer.js"></script>
         
         <!-- JS files upload -->
         <script src="/js/jquery-3.4.1.min.js"></script> 

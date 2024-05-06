@@ -25,6 +25,9 @@
         <!-- Slick Slider CSS -->
         <link rel="stylesheet" type="text/css" href="css/slick.css">
         <link rel="stylesheet" type="text/css" href="css/slick-theme.css">
+
+        <!-- Dependencies -->
+        <script src="https://cdn.jsdelivr.net/npm/handlebars/dist/handlebars.min.js"></script>
         
     </head>
     <body class="white">
@@ -32,7 +35,10 @@
         <!-- Main Content Starts -->
 
         <!-- We target this with js and render it client side-->
-        <div id="main-header"></div>
+        <!-- <div id="main-header"></div> -->
+
+
+        <script id="main-header" src="/js/components/header/header.js"></script>
 
      
         
@@ -103,13 +109,9 @@
                 </div>
             </div>
         </div><!-- Section Ends -->
-        
-      
-        <div id="main-footer"></div>
 
-        <!-- Components -->
-        <script src="js/components/header.js"></script>
-        <script src="/js/components/footer.js"></script>
+        <!-- Footer -->
+        <script id="main-footer" src="/js/components/footer/footer.js"></script>
         
         <!-- JS files upload -->
         <script src="js/jquery-3.4.1.min.js"></script> 
