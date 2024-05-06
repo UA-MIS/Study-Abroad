@@ -25,45 +25,45 @@ In order to create your personal page, follow the path `/pages/students/...` and
 ### Adding Link to Your Page on Home Page
 Please make sure you add a link to your html file on the home page, `index.html`, so that it can be found by visitors to the site. Here is an example where two students added their own links to this file
 
-                    <div class="row mt-50 grid">
+    <div class="row mt-50 grid">
 
-                        <!-- Student blog link -->
-                        <div class="col-lg-4 element-item mt-20 america" >
-                            <div class="promo-item">
-                                <a href="pages/students/chase/chase.html" class="link-item">
-                                    <div class="hover-link">
-                                        <span class="primary-btn large black t-snow">more details</span>
-                                    </div>
-                                    <div class="title">
-                                        <h5 class="t-gold">Chase Callahan</h5>
-                                        <span class="line"></span>
-                                        <h3 class="t-white">Really Cool Title</h3>
-                                    </div>
-                                </a>
-                                <div class="image"><div class="hover"></div><img src="assets/img/promo/venezuela.jpg" alt="Exodus" class="img-fluid"></div>
-                            </div>
-                        </div>
-                        <!-- End -->
-
-                        <!-- Student blog link -->
-                        <div class="col-lg-4 element-item mt-20 america" >
-                            <div class="promo-item">
-                                <a href="pages/students/dalton/dalton.html" class="link-item">
-                                    <div class="hover-link">
-                                        <span class="primary-btn large black t-snow">more details</span>
-                                    </div>
-                                    <div class="title">
-                                        <h5 class="t-gold">Dalton Wright</h5>
-                                        <span class="line"></span>
-                                        <h3 class="t-white">Abroad We Go</h3>
-                                    </div>
-                                </a>
-                                <div class="image"><div class="hover"></div><img src="assets/img/promo/rome.jpg" alt="Exodus" class="img-fluid"></div>
-                            </div>
-                        </div>
-                        <!-- End -->
-
+        <!-- Student blog link -->
+        <div class="col-lg-4 element-item mt-20 america" >
+            <div class="promo-item">
+                <a href="pages/students/chase/chase.html" class="link-item">
+                    <div class="hover-link">
+                        <span class="primary-btn large black t-snow">more details</span>
                     </div>
+                    <div class="title">
+                        <h5 class="t-gold">Chase Callahan</h5>
+                        <span class="line"></span>
+                        <h3 class="t-white">Really Cool Title</h3>
+                    </div>
+                </a>
+                <div class="image"><div class="hover"></div><img src="assets/img/promo/venezuela.jpg" alt="Exodus" class="img-fluid"></div>
+            </div>
+        </div>
+        <!-- End -->
+
+        <!-- Student blog link -->
+        <div class="col-lg-4 element-item mt-20 america" >
+            <div class="promo-item">
+                <a href="pages/students/dalton/dalton.html" class="link-item">
+                    <div class="hover-link">
+                        <span class="primary-btn large black t-snow">more details</span>
+                    </div>
+                    <div class="title">
+                        <h5 class="t-gold">Dalton Wright</h5>
+                        <span class="line"></span>
+                        <h3 class="t-white">Abroad We Go</h3>
+                    </div>
+                </a>
+                <div class="image"><div class="hover"></div><img src="assets/img/promo/rome.jpg" alt="Exodus" class="img-fluid"></div>
+            </div>
+        </div>
+        <!-- End -->
+
+    </div>
 
 ### Adding Photos
 When adding your own folders, you can find a place to do this by following the `/assets/img/students/...` path. Here you will find where other students have included their own photos.
