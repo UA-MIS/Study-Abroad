@@ -1624,3 +1624,20 @@ label {
 .blog-thumbnail-container{
     height: 50vh;
 }
+
+
+/* Christian's css below */
+
+.christianimages{
+    height: 200%;
+    width: 200%;
+}
+
+.fit-please{
+    object-fit:contain;
+    width: 100%;
+    height: 100%;
+}
+
+
+/* end Christian's css */
