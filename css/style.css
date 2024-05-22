@@ -1639,5 +1639,14 @@ label {
     height: 100%;
 }
 
+.black{
+    background-color: black;
+    color: black;
+}
+
+.grey{
+    color: #D3D3D3;
+}
+
 
 /* end Christian's css */
