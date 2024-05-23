@@ -205,6 +205,11 @@ a i{
     background-image:url("../assets/img/backs/back05.jpg");
 }
 
+.back.carson{
+    background-image:url("../assets/img/backs/IMG_2445.jpg");
+
+}
+
 /* Slides */
 .slide{
     background-size:cover;
@@ -1650,3 +1655,17 @@ label {
 
 
 /* end Christian's css */
+
+/* start Carson css */
+.taller{
+    height: 600px;
+    object-fit: cover;
+    width: 50%;
+
+}
+
+.carousel-item{
+    height: 600px;
+}
+
+/* end Carson css */
