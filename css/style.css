@@ -1624,3 +1624,68 @@ label {
 .blog-thumbnail-container{
     height: 50vh;
 }
+
+.blog-hero-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+    position: relative;
+    padding: 5em 0 1em 0;
+    min-height: 25vh;
+}
+
+.blog-hero-container::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-image: url("/assets/img/backs/back03.jpg");
+    background-size: cover;
+    filter: brightness(50%);
+    z-index: -1;
+}
+.hero-sublabel{
+    margin: 3em 0 .2em
+}
+
+.blog-hero-label-container{
+    margin: 0 0 1em 0
+}
+
+.blog-sub-hero-label{
+    margin: 1em 0 0 0;
+    text-align: center;
+
+    line-height: 1.5;
+    color: #999;
+    font-size: .7rem;
+    font-weight: 400;
+    font-family: 'Montserrat', 'sans-serif';
+    text-transform: uppercase;
+   letter-spacing: .135rem; 
+}
+.blog-hero-profile{
+    background-position: center;
+    background-size: cover;
+    height: 10em;
+    width: 8em;
+    border-radius: 50%;
+    border: solid white;
+
+}
+
+.header-container{
+    margin: 2.6em 0 2.8em 0;
+}
+
+.header-date{
+    margin-top: 4em;
+}
+
+.blog-photo-section > div{
+    margin: 2em 0;
+}
