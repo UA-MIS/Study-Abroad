@@ -205,6 +205,11 @@ a i{
     background-image:url("../assets/img/backs/back05.jpg");
 }
 
+.back.carson{
+    background-image:url("../assets/img/backs/IMG_2445.jpg");
+
+}
+
 /* Slides */
 .slide{
     background-size:cover;
@@ -1715,3 +1720,17 @@ label {
 .blog-photo-section > div{
     margin: 2em 0;
 }
+
+/* start Carson css */
+.taller{
+    height: 600px;
+    object-fit: cover;
+    width: 50%;
+
+}
+
+.carousel-item{
+    height: 600px;
+}
+
+/* end Carson css */
